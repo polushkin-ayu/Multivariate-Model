@@ -1,0 +1,68 @@
+{
+  "units": "currency units and users per 100,000 eligible users; probability and ROI are ratios",
+  "roi_definition": "expected profit / expected CAC spend (ratio of expectations)",
+  "acquisition_probability_definition": "expected CAC spend / unit price",
+  "source": "refined/results.json; no new simulations",
+  "rows": [
+    {
+      "N": 64,
+      "expected_gain_per_100000": -8711.034635752238,
+      "expected_profit_per_100000": 413906.949206278,
+      "expected_acquisition_probability": 0.1309800031158215,
+      "expected_acquired_per_100000": 13098.000311582151,
+      "expected_cac_spend_per_100000": 982350.0233686613,
+      "expected_cash_before_cac_per_100000": 1396256.9725749393,
+      "roi_ratio_of_expectations": 0.42134365486846936,
+      "fraction_worse": 0.6743,
+      "mc_se_gain_per_100000": 30.365484552930337,
+      "baseline": {
+        "expected_profit_per_100000": 422617.9838420302,
+        "expected_acquisition_probability": 0.13150145530571214,
+        "expected_acquired_per_100000": 13150.145530571213,
+        "expected_cac_spend_per_100000": 986260.914792841,
+        "expected_cash_before_cac_per_100000": 1408878.8986348712,
+        "roi_ratio_of_expectations": 0.4285052540389872
+      }
+    },
+    {
+      "N": 512,
+      "expected_gain_per_100000": 981.1650573627227,
+      "expected_profit_per_100000": 423599.1488993929,
+      "expected_acquisition_probability": 0.13176654235639085,
+      "expected_acquired_per_100000": 13176.654235639086,
+      "expected_cac_spend_per_100000": 988249.0676729314,
+      "expected_cash_before_cac_per_100000": 1411848.2165723243,
+      "roi_ratio_of_expectations": 0.4286360217843245,
+      "fraction_worse": 0.236645,
+      "mc_se_gain_per_100000": 6.981807914642107,
+      "baseline": {
+        "expected_profit_per_100000": 422617.9838420302,
+        "expected_acquisition_probability": 0.13150145530571214,
+        "expected_acquired_per_100000": 13150.145530571213,
+        "expected_cac_spend_per_100000": 986260.914792841,
+        "expected_cash_before_cac_per_100000": 1408878.8986348712,
+        "roi_ratio_of_expectations": 0.4285052540389872
+      }
+    },
+    {
+      "N": 4096,
+      "expected_gain_per_100000": 2965.704902255175,
+      "expected_profit_per_100000": 425583.6887442854,
+      "expected_acquisition_probability": 0.13189428431757463,
+      "expected_acquired_per_100000": 13189.428431757464,
+      "expected_cac_spend_per_100000": 989207.1323818098,
+      "expected_cash_before_cac_per_100000": 1414790.821126095,
+      "roi_ratio_of_expectations": 0.4302270725844509,
+      "fraction_worse": 0.001035,
+      "mc_se_gain_per_100000": 0.9549678854544673,
+      "baseline": {
+        "expected_profit_per_100000": 422617.9838420302,
+        "expected_acquisition_probability": 0.13150145530571214,
+        "expected_acquired_per_100000": 13150.145530571213,
+        "expected_cac_spend_per_100000": 986260.914792841,
+        "expected_cash_before_cac_per_100000": 1408878.8986348712,
+        "roi_ratio_of_expectations": 0.4285052540389872
+      }
+    }
+  ]
+}

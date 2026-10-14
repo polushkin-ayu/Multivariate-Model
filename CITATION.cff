@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: If you use this work, please cite the associated article.
+title: The monetary cost of calibration error for an additional score in customer acquisition decisions
+authors:
+  - family-names: Polushkin
+    given-names: Aleksandr Yuryevich
+version: 0.2.1
+repository-code: https://github.com/polushkin-ayu/Multivariate-Model

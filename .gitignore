@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.mplconfig/
+.cache/
+.venv/
+.DS_Store
+*.aux
+*.log
+*.out
+paper-en/qa/

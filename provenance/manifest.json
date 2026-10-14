@@ -1,0 +1,559 @@
+{
+  "logical_figure_count": 8,
+  "language_variants": [
+    "ru",
+    "en"
+  ],
+  "formats": [
+    "png",
+    "pdf"
+  ],
+  "output_count": 32,
+  "logical_figures": [
+    {
+      "name": "process",
+      "outputs": [
+        "full_model_example/build/process_ru.png",
+        "full_model_example/build/process_ru.pdf",
+        "full_model_example/build/process_en.png",
+        "full_model_example/build/process_en.pdf"
+      ]
+    },
+    {
+      "name": "calibration_mechanism",
+      "outputs": [
+        "full_model_example/build/calibration_mechanism_ru.png",
+        "full_model_example/build/calibration_mechanism_ru.pdf",
+        "full_model_example/build/calibration_mechanism_en.png",
+        "full_model_example/build/calibration_mechanism_en.pdf"
+      ]
+    },
+    {
+      "name": "theorem_mean_l1_residual",
+      "outputs": [
+        "full_model_example/build/theorem_mean_l1_residual_ru.png",
+        "full_model_example/build/theorem_mean_l1_residual_ru.pdf",
+        "full_model_example/build/theorem_mean_l1_residual_en.png",
+        "full_model_example/build/theorem_mean_l1_residual_en.pdf"
+      ]
+    },
+    {
+      "name": "profit_decomposition",
+      "outputs": [
+        "full_model_example/build/profit_decomposition_ru.png",
+        "full_model_example/build/profit_decomposition_ru.pdf",
+        "full_model_example/build/profit_decomposition_en.png",
+        "full_model_example/build/profit_decomposition_en.pdf"
+      ]
+    },
+    {
+      "name": "learning_reference",
+      "outputs": [
+        "full_model_example/build/learning_reference_ru.png",
+        "full_model_example/build/learning_reference_ru.pdf",
+        "full_model_example/build/learning_reference_en.png",
+        "full_model_example/build/learning_reference_en.pdf"
+      ]
+    },
+    {
+      "name": "profit_distribution",
+      "outputs": [
+        "full_model_example/refined/profit_distribution_ru.png",
+        "full_model_example/refined/profit_distribution_ru.pdf",
+        "full_model_example/refined/profit_distribution_en.png",
+        "full_model_example/refined/profit_distribution_en.pdf"
+      ]
+    },
+    {
+      "name": "profit_map",
+      "outputs": [
+        "full_model_example/sensitivity/profit_map_ru.png",
+        "full_model_example/sensitivity/profit_map_ru.pdf",
+        "full_model_example/sensitivity/profit_map_en.png",
+        "full_model_example/sensitivity/profit_map_en.pdf"
+      ]
+    },
+    {
+      "name": "theorem_validation",
+      "outputs": [
+        "full_model_example/theorem_training/theorem_validation_ru.png",
+        "full_model_example/theorem_training/theorem_validation_ru.pdf",
+        "full_model_example/theorem_training/theorem_validation_en.png",
+        "full_model_example/theorem_training/theorem_validation_en.pdf"
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "logical_figure": "process",
+      "language": "ru",
+      "format": "png",
+      "path": "full_model_example/build/process_ru.png",
+      "sha256": "ade5aadf9e7c91bc67fce8a1008e6df5d0b2ae96496d9d9d35ff635917acc79a",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json",
+        "full_model_example/refined/reference_quality.json"
+      ]
+    },
+    {
+      "logical_figure": "process",
+      "language": "ru",
+      "format": "pdf",
+      "path": "full_model_example/build/process_ru.pdf",
+      "sha256": "299ccb344ec32d8b5d879a14c443045bf034a7e6acf050cd605f0bf171c72b4a",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json",
+        "full_model_example/refined/reference_quality.json"
+      ]
+    },
+    {
+      "logical_figure": "process",
+      "language": "en",
+      "format": "png",
+      "path": "full_model_example/build/process_en.png",
+      "sha256": "8541ad44b72ddbde427c20e55a0ab232a5038abdae451ee6992e6096cf3d8889",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json",
+        "full_model_example/refined/reference_quality.json"
+      ]
+    },
+    {
+      "logical_figure": "process",
+      "language": "en",
+      "format": "pdf",
+      "path": "full_model_example/build/process_en.pdf",
+      "sha256": "5e8f82184c507bddef18421c04c29123772f3ee74d24c3f995c0720740f2bc18",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json",
+        "full_model_example/refined/reference_quality.json"
+      ]
+    },
+    {
+      "logical_figure": "calibration_mechanism",
+      "language": "ru",
+      "format": "png",
+      "path": "full_model_example/build/calibration_mechanism_ru.png",
+      "sha256": "0c97ca55e0b54fd1308d9dc405854c11904281f1ee5f93fe3d02ae3a8c50e8b8",
+      "generators": [
+        "full_model_example/refined/render_ru.py",
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json"
+      ]
+    },
+    {
+      "logical_figure": "calibration_mechanism",
+      "language": "ru",
+      "format": "pdf",
+      "path": "full_model_example/build/calibration_mechanism_ru.pdf",
+      "sha256": "c69a9996e3e2417845ee017d3923fe35e80d1f9250f33d39e1d892e34005e284",
+      "generators": [
+        "full_model_example/refined/render_ru.py",
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json"
+      ]
+    },
+    {
+      "logical_figure": "calibration_mechanism",
+      "language": "en",
+      "format": "png",
+      "path": "full_model_example/build/calibration_mechanism_en.png",
+      "sha256": "0f2dde8ae3e09c73af5fe0715a2c4cca599e86db882d6a11b3d780393863bd5e",
+      "generators": [
+        "full_model_example/refined/render_en.py",
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json"
+      ]
+    },
+    {
+      "logical_figure": "calibration_mechanism",
+      "language": "en",
+      "format": "pdf",
+      "path": "full_model_example/build/calibration_mechanism_en.pdf",
+      "sha256": "5f3e1ad9484b57749007ac7ee386638cb774823213c24ab74b6b3465685aaae2",
+      "generators": [
+        "full_model_example/refined/render_en.py",
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json"
+      ]
+    },
+    {
+      "logical_figure": "theorem_mean_l1_residual",
+      "language": "ru",
+      "format": "png",
+      "path": "full_model_example/build/theorem_mean_l1_residual_ru.png",
+      "sha256": "33b754c254b04f041fcbb49bc34abf67392ba5fbfde1fa595b5a1b4032df3bc9",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/theorem_training/summary.json"
+      ]
+    },
+    {
+      "logical_figure": "theorem_mean_l1_residual",
+      "language": "ru",
+      "format": "pdf",
+      "path": "full_model_example/build/theorem_mean_l1_residual_ru.pdf",
+      "sha256": "68f07e9ae08acaa70f25c13b838ed395a314cb7294dca3b2e1cdef8a21001240",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/theorem_training/summary.json"
+      ]
+    },
+    {
+      "logical_figure": "theorem_mean_l1_residual",
+      "language": "en",
+      "format": "png",
+      "path": "full_model_example/build/theorem_mean_l1_residual_en.png",
+      "sha256": "bd72bc3689be0827b34ff593c0b6b5b04124b9a353464317c64b57853c0d9d5b",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/theorem_training/summary.json"
+      ]
+    },
+    {
+      "logical_figure": "theorem_mean_l1_residual",
+      "language": "en",
+      "format": "pdf",
+      "path": "full_model_example/build/theorem_mean_l1_residual_en.pdf",
+      "sha256": "5ad52d56dca46abac4b53f1bc33866ba5043c15102d0465b092c68eec4666db3",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/theorem_training/summary.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_decomposition",
+      "language": "ru",
+      "format": "png",
+      "path": "full_model_example/build/profit_decomposition_ru.png",
+      "sha256": "9acf7fead858a3ae945008b9b68cbcd1f1d22a70c5a74eadc2c6288ebd5c1f32",
+      "generators": [
+        "full_model_example/refined/render_ru.py",
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_decomposition",
+      "language": "ru",
+      "format": "pdf",
+      "path": "full_model_example/build/profit_decomposition_ru.pdf",
+      "sha256": "de810142c205df8129916233a7092c10ace5c1d02240d54fed8afc07921e12f1",
+      "generators": [
+        "full_model_example/refined/render_ru.py",
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_decomposition",
+      "language": "en",
+      "format": "png",
+      "path": "full_model_example/build/profit_decomposition_en.png",
+      "sha256": "922c48f225415bf047e3080b190848bf38c8b43cb96b4d7dba162b3f0b43dcea",
+      "generators": [
+        "full_model_example/refined/render_en.py",
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_decomposition",
+      "language": "en",
+      "format": "pdf",
+      "path": "full_model_example/build/profit_decomposition_en.pdf",
+      "sha256": "632a3ab6d937a686d2f140d087a4f51dba28fb5aed90735e60a69c23b1fe23ae",
+      "generators": [
+        "full_model_example/refined/render_en.py",
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json"
+      ]
+    },
+    {
+      "logical_figure": "learning_reference",
+      "language": "ru",
+      "format": "png",
+      "path": "full_model_example/build/learning_reference_ru.png",
+      "sha256": "c1c6fa3ea166bea216265664e06628438e7ee9790f9ca4dc1160ae67b6bca5e5",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json",
+        "full_model_example/refined/reference_quality.json"
+      ]
+    },
+    {
+      "logical_figure": "learning_reference",
+      "language": "ru",
+      "format": "pdf",
+      "path": "full_model_example/build/learning_reference_ru.pdf",
+      "sha256": "ac8416793f7b3b2ff98c75c3d161da08452793c061fe1f564ac963e5d9a64d3a",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json",
+        "full_model_example/refined/reference_quality.json"
+      ]
+    },
+    {
+      "logical_figure": "learning_reference",
+      "language": "en",
+      "format": "png",
+      "path": "full_model_example/build/learning_reference_en.png",
+      "sha256": "26e03d5293486038aa6f4684c4dc2b787b6e4244770e6bf7bc6e2ec5d4489c87",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json",
+        "full_model_example/refined/reference_quality.json"
+      ]
+    },
+    {
+      "logical_figure": "learning_reference",
+      "language": "en",
+      "format": "pdf",
+      "path": "full_model_example/build/learning_reference_en.pdf",
+      "sha256": "ea12917dcf39a857e6cfe292467020ea9707417827e160f2ecda86cf7418a305",
+      "generators": [
+        "full_model_example/build/build_assets.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/results.json",
+        "full_model_example/refined/reference_quality.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_distribution",
+      "language": "ru",
+      "format": "png",
+      "path": "full_model_example/refined/profit_distribution_ru.png",
+      "sha256": "754a45af44c4dccdf1851978361438eeac95a8802c60c2e3d291cf996c26a10e",
+      "generators": [
+        "full_model_example/refined/render_ru.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/profit_histogram.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_distribution",
+      "language": "ru",
+      "format": "pdf",
+      "path": "full_model_example/refined/profit_distribution_ru.pdf",
+      "sha256": "7cc70b7bfdc650133657d773c5f877cddfe626b3029739cfe9ccae13fab755fd",
+      "generators": [
+        "full_model_example/refined/render_ru.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/profit_histogram.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_distribution",
+      "language": "en",
+      "format": "png",
+      "path": "full_model_example/refined/profit_distribution_en.png",
+      "sha256": "07248544967dc7b62e45fee471664858793d6d4bcd41e74d6a3315f0c6deb47c",
+      "generators": [
+        "full_model_example/refined/render_en.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/profit_histogram.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_distribution",
+      "language": "en",
+      "format": "pdf",
+      "path": "full_model_example/refined/profit_distribution_en.pdf",
+      "sha256": "7847084e7e9fc3b653652836b055de810b77bc70f0eb5919aceeaf9a02e6e3ab",
+      "generators": [
+        "full_model_example/refined/render_en.py"
+      ],
+      "source_inputs": [
+        "full_model_example/refined/profit_histogram.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_map",
+      "language": "ru",
+      "format": "png",
+      "path": "full_model_example/sensitivity/profit_map_ru.png",
+      "sha256": "6f0f2ac576c6464512e58b60fc96301221557b06394e2103e7676498bd10c6aa",
+      "generators": [
+        "full_model_example/sensitivity/render_ru.py"
+      ],
+      "source_inputs": [
+        "full_model_example/sensitivity/refined_results.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_map",
+      "language": "ru",
+      "format": "pdf",
+      "path": "full_model_example/sensitivity/profit_map_ru.pdf",
+      "sha256": "3acaa577a6382d6dd2082fae23077c9f18186e870d6cba0675ca869af38524bc",
+      "generators": [
+        "full_model_example/sensitivity/render_ru.py"
+      ],
+      "source_inputs": [
+        "full_model_example/sensitivity/refined_results.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_map",
+      "language": "en",
+      "format": "png",
+      "path": "full_model_example/sensitivity/profit_map_en.png",
+      "sha256": "2e02916355075b74660072c3241ed98594a3ad93c06bc990c1cca7851878d0d9",
+      "generators": [
+        "full_model_example/sensitivity/render_en.py"
+      ],
+      "source_inputs": [
+        "full_model_example/sensitivity/refined_results.json"
+      ]
+    },
+    {
+      "logical_figure": "profit_map",
+      "language": "en",
+      "format": "pdf",
+      "path": "full_model_example/sensitivity/profit_map_en.pdf",
+      "sha256": "4bacd237709410c488e8af2597fb93dff37d0f2346fece2d9c30594d04533648",
+      "generators": [
+        "full_model_example/sensitivity/render_en.py"
+      ],
+      "source_inputs": [
+        "full_model_example/sensitivity/refined_results.json"
+      ]
+    },
+    {
+      "logical_figure": "theorem_validation",
+      "language": "ru",
+      "format": "png",
+      "path": "full_model_example/theorem_training/theorem_validation_ru.png",
+      "sha256": "37490e23cf7fef4e39c967716739cf03f39e3a3fa9328c05573e1e3f04c131d1",
+      "generators": [
+        "full_model_example/theorem_training/make_figure_ru.py"
+      ],
+      "source_inputs": [
+        "full_model_example/theorem_training/summary.json",
+        "full_model_example/theorem_training/paired_gains.npz"
+      ]
+    },
+    {
+      "logical_figure": "theorem_validation",
+      "language": "ru",
+      "format": "pdf",
+      "path": "full_model_example/theorem_training/theorem_validation_ru.pdf",
+      "sha256": "9f069627bf66e0803cacf7d7de58a7e12d999c22d097e44ec97ada19df93d614",
+      "generators": [
+        "full_model_example/theorem_training/make_figure_ru.py"
+      ],
+      "source_inputs": [
+        "full_model_example/theorem_training/summary.json",
+        "full_model_example/theorem_training/paired_gains.npz"
+      ]
+    },
+    {
+      "logical_figure": "theorem_validation",
+      "language": "en",
+      "format": "png",
+      "path": "full_model_example/theorem_training/theorem_validation_en.png",
+      "sha256": "7a89c9eed82499c9f8ccb0a3bd43c01b5164cc9037e3ca4b030a6722349d8a49",
+      "generators": [
+        "full_model_example/theorem_training/make_figure_en.py"
+      ],
+      "source_inputs": [
+        "full_model_example/theorem_training/summary.json",
+        "full_model_example/theorem_training/paired_gains.npz"
+      ]
+    },
+    {
+      "logical_figure": "theorem_validation",
+      "language": "en",
+      "format": "pdf",
+      "path": "full_model_example/theorem_training/theorem_validation_en.pdf",
+      "sha256": "45454ac30571d5b94103abe8f07026bb1df630c679f42daceaa72d650f003c07",
+      "generators": [
+        "full_model_example/theorem_training/make_figure_en.py"
+      ],
+      "source_inputs": [
+        "full_model_example/theorem_training/summary.json",
+        "full_model_example/theorem_training/paired_gains.npz"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "cac_calibration.py": "c8b3b1113df26745b14581cbb73021062198cfea63bfe5c2d19b9e6ad2af608c",
+    "cac_decision.py": "0fca05a1259673c54fce91cd23ef86bd501f0db9c9be38a4a5616874b3325679",
+    "full_model_example/build/build_assets.py": "e38474c8b7576036439a321b2aa2257e56ca4c830b565c773316712239e1472f",
+    "full_model_example/refined/reference_quality.json": "93f259b517d94ad930da508e9585476e41d3c51f9a68e1a37b038591ea89c671",
+    "full_model_example/refined/render_en.py": "cfb83776d3514b48dac5f46fe1c793618af5e6ad385c5fd8c7e945f678a4ff06",
+    "full_model_example/refined/render_ru.py": "04d06feedb7464f63b00190c53963a800f56d4535bc3d29a5e0e9d438c1deb28",
+    "full_model_example/refined/results.json": "284facf72ca23e46664fc318a82e5ffc1f00265300a781ff75b0bdf4bbd51013",
+    "full_model_example/refined/run.py": "44ffd59c509061e13e49a808a7e654f9e765df277628a2af5f79dd5683b34b86",
+    "full_model_example/sensitivity/refined_results.json": "bf1ebd072234a092112a72213239163ed4b500a6b9eee9ca779ff978a32dcae7",
+    "full_model_example/sensitivity/render_en.py": "484444ebd6d30ce3e7080878b822f7bcb9be0b6c465e6bd5640903b46390b33c",
+    "full_model_example/sensitivity/render_ru.py": "5e173b05b465b3b745ddb359e754b6b917238a0052e12413bdb1da4bf3c3a964",
+    "full_model_example/theorem_training/make_figure_en.py": "6e695f31054f979b2c8c82a9b859782ab1865f6a11d6821e29be66f9aa191e56",
+    "full_model_example/theorem_training/make_figure_ru.py": "c45dda60c676c4075c24d66674a29ea5fdb9788a6a18769f46d4127970c9eb6d",
+    "full_model_example/theorem_training/paired_gains.npz": "f984df9f0d84f818cbac05b5f6928cbade4e634c58ec98dc80f74faa4db7d733",
+    "full_model_example/theorem_training/summary.json": "4d25670e459ec08e20069e62324504df269051376a08d6f84cc4a50686064952",
+    "structural_weak_score.py": "5776c25eee33cc1a4dd3f166fbe9d8ff93a6963c30eefb8594fdee36fe10a2e1",
+    "verify_structural_weak_score.py": "c150062b999c8a1a1da8390a215b78c9b89840b08466a46d858352ffb2516b07",
+    "gaussian_cac.py": "f00cd984eaac9100789ac9d57545d80df634af194420b382ab7c9b811b1ffc23",
+    "gaussian_risk_integrals.py": "b531f543051b98847703c720b5babf07044e626f57a315c9c9407638d6dc2953",
+    "full_model_example/refined/profit_histogram.json": "843f21c53f03c2876b64c9dedf13466d58eaf97024f133f0990097e630e183e6"
+  },
+  "missing_outputs": [],
+  "missing_sources": [],
+  "audit_note": "profit_histogram.json serialized after deterministic replay of the original fixed-seed sequence: seed=2026101347, N order=[32, 37, 43, 50, 59, 64], reps=200000. Before saving, mean gain was asserted equal to primary.mean_gain × flow; absolute difference=0.0. Both public refined renderers now read only this cache. Quick pipeline rebuilt all 32 outputs (8 figures × RU/EN × PNG/PDF) from saved numbers; no model simulations or training were run. RU decimal formatting now uses decimal commas and typographic minus signs for τ, percentages, and decimal tick labels; all RU assets were regenerated from cached data without replay.",
+  "localization_audit": "Only packaged RU plotters were changed. The RU assets were regenerated from cached result files and copied to the corresponding source project figure directories. Original manuscript render code was left untouched; packaged RU generators are authoritative for these localized assets. EN plots and source files were not changed.",
+  "version": "0.2.1",
+  "author_display": {
+    "ru": "Москва, Россия",
+    "en": "Moscow, Russia",
+    "english_orcid": false
+  },
+  "zenodo": "Deferred by author",
+  "license": "None assigned by author",
+  "package_scope": "Code, bilingual figures, saved synthetic results and reproduction metadata; no manuscripts"
+}

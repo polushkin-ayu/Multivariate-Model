@@ -1,0 +1,239 @@
+{
+  "experiment": "joint calibration theorem validation; synthetic original CAC model",
+  "seed": 2026101417,
+  "replications_per_case": 128,
+  "N_values": [
+    2000,
+    20000,
+    100000
+  ],
+  "h_over_s_values": [
+    0.5,
+    2.0
+  ],
+  "CAC": 25.0,
+  "gate": [
+    -3.200874778243636,
+    2.7545876756152166,
+    3.0
+  ],
+  "C_gate": 0.149488889364334,
+  "C_gate_refined_44x40": 0.14948888940915384,
+  "C_gate_quadrature_absolute_difference": 4.481984228199565e-11,
+  "s": 2.9614004739122173,
+  "engine_quadrature": {
+    "outer": 14,
+    "inner": 20
+  },
+  "selected_case_refinement_quadrature": {
+    "outer": 24,
+    "inner": 32
+  },
+  "elapsed_seconds": 405.447170042,
+  "cases": [
+    {
+      "N": 2000,
+      "h_over_s": 0.5,
+      "h": 1.4807002369561086,
+      "replications": 128,
+      "mean_exact_scaled_gain": -0.8359887662316957,
+      "mean_theorem_prediction": -0.8739453318808061,
+      "mean_paired_difference": 0.03795656564911025,
+      "paired_difference_SE": 0.024826864733498665,
+      "mean_absolute_residual_normalized_Cs2": 0.10630574618584557,
+      "median_absolute_residual_normalized_Cs2": 0.026044626364562257,
+      "stabilizations": {
+        "compact_model": 0,
+        "tau_clip": 0,
+        "covariance_repair": 0
+      },
+      "refinements": [
+        {
+          "replication": 0,
+          "coarse_exact": -2.0454168516599998,
+          "refined_exact": -2.045416876459838,
+          "absolute_difference": 2.4799838183042766e-08
+        }
+      ],
+      "elapsed_seconds": 71.189921833,
+      "MC_SE_exact_scaled_gain": 0.13136751719532722,
+      "MC_SE_theorem_prediction": 0.14310266304743458,
+      "normalized_mean_exact": -0.6376718465830027,
+      "normalized_MC_SE_exact": 0.1002039389220116,
+      "normalized_mean_prediction": -0.6666241893477488,
+      "normalized_paired_difference": 0.02895234276474592,
+      "normalized_paired_difference_SE": 0.018937327053852808,
+      "theorem_normalized_limit": -0.75
+    },
+    {
+      "N": 2000,
+      "h_over_s": 2.0,
+      "h": 5.922800947824435,
+      "replications": 128,
+      "mean_exact_scaled_gain": 3.7915810675782042,
+      "mean_theorem_prediction": 3.7933753963909806,
+      "mean_paired_difference": -0.0017943288127767604,
+      "paired_difference_SE": 0.03704238193582717,
+      "mean_absolute_residual_normalized_Cs2": 0.15835114985062748,
+      "median_absolute_residual_normalized_Cs2": 0.06442964346445529,
+      "stabilizations": {
+        "compact_model": 0,
+        "tau_clip": 0,
+        "covariance_repair": 0
+      },
+      "refinements": [
+        {
+          "replication": 0,
+          "coarse_exact": 1.9560500481285896,
+          "refined_exact": 1.956050045908467,
+          "absolute_difference": 2.2201225302609373e-09
+        }
+      ],
+      "elapsed_seconds": 68.327092459,
+      "MC_SE_exact_scaled_gain": 0.13819587731558905,
+      "MC_SE_theorem_prediction": 0.14486311356899303,
+      "normalized_mean_exact": 2.8921255864838415,
+      "normalized_MC_SE_exact": 0.10541244552270233,
+      "normalized_mean_prediction": 2.893494256750283,
+      "normalized_paired_difference": -0.0013686702664415095,
+      "normalized_paired_difference_SE": 0.028255025719215475,
+      "theorem_normalized_limit": 3.0
+    },
+    {
+      "N": 20000,
+      "h_over_s": 0.5,
+      "h": 1.4807002369561086,
+      "replications": 128,
+      "mean_exact_scaled_gain": -0.6371659918106493,
+      "mean_theorem_prediction": -0.6397266190829132,
+      "mean_paired_difference": 0.0025606272722640423,
+      "paired_difference_SE": 0.007002098529345679,
+      "mean_absolute_residual_normalized_Cs2": 0.027175635200387634,
+      "median_absolute_residual_normalized_Cs2": 0.004524816895116391,
+      "stabilizations": {
+        "compact_model": 0,
+        "tau_clip": 0,
+        "covariance_repair": 0
+      },
+      "refinements": [
+        {
+          "replication": 0,
+          "coarse_exact": 0.3248478650426935,
+          "refined_exact": 0.3248478300219053,
+          "absolute_difference": 3.502078815831311e-08
+        }
+      ],
+      "elapsed_seconds": 64.777281625,
+      "MC_SE_exact_scaled_gain": 0.1279458428115624,
+      "MC_SE_theorem_prediction": 0.1288146069378049,
+      "normalized_mean_exact": -0.4860146822417702,
+      "normalized_MC_SE_exact": 0.09759396913433582,
+      "normalized_mean_prediction": -0.48796786628810074,
+      "normalized_paired_difference": 0.0019531840463306712,
+      "normalized_paired_difference_SE": 0.005341030022796374,
+      "theorem_normalized_limit": -0.75
+    },
+    {
+      "N": 20000,
+      "h_over_s": 2.0,
+      "h": 5.922800947824435,
+      "replications": 128,
+      "mean_exact_scaled_gain": 3.7416249932079504,
+      "mean_theorem_prediction": 3.7145029280397597,
+      "mean_paired_difference": 0.027122065168190646,
+      "paired_difference_SE": 0.01658773164150297,
+      "mean_absolute_residual_normalized_Cs2": 0.07139879940258305,
+      "median_absolute_residual_normalized_Cs2": 0.028380687227056892,
+      "stabilizations": {
+        "compact_model": 0,
+        "tau_clip": 0,
+        "covariance_repair": 0
+      },
+      "refinements": [
+        {
+          "replication": 0,
+          "coarse_exact": 5.014601723629542,
+          "refined_exact": 5.014601791288101,
+          "absolute_difference": 6.765855875556781e-08
+        }
+      ],
+      "elapsed_seconds": 65.52151375000003,
+      "MC_SE_exact_scaled_gain": 0.16245818633077477,
+      "MC_SE_theorem_prediction": 0.16792264288691325,
+      "normalized_mean_exact": 2.854020311056147,
+      "normalized_MC_SE_exact": 0.12391914324044774,
+      "normalized_mean_prediction": 2.833332261075639,
+      "normalized_paired_difference": 0.020688049980508154,
+      "normalized_paired_difference_SE": 0.01265271722984962,
+      "theorem_normalized_limit": 3.0
+    },
+    {
+      "N": 100000,
+      "h_over_s": 0.5,
+      "h": 1.4807002369561086,
+      "replications": 128,
+      "mean_exact_scaled_gain": -1.1274280313999983,
+      "mean_theorem_prediction": -1.132991401377804,
+      "mean_paired_difference": 0.005563369977805836,
+      "paired_difference_SE": 0.004149508664078669,
+      "mean_absolute_residual_normalized_Cs2": 0.0159656384456123,
+      "median_absolute_residual_normalized_Cs2": 0.004537531874319378,
+      "stabilizations": {
+        "compact_model": 0,
+        "tau_clip": 0,
+        "covariance_repair": 0
+      },
+      "refinements": [
+        {
+          "replication": 0,
+          "coarse_exact": 0.3277622445345994,
+          "refined_exact": 0.3277622553894684,
+          "absolute_difference": 1.0854869003651402e-08
+        }
+      ],
+      "elapsed_seconds": 66.46701187499997,
+      "MC_SE_exact_scaled_gain": 0.17140997293150406,
+      "MC_SE_theorem_prediction": 0.1728188460802884,
+      "normalized_mean_exact": -0.8599746117557565,
+      "normalized_MC_SE_exact": 0.13074734778395466,
+      "normalized_mean_prediction": -0.8642182147206181,
+      "normalized_paired_difference": 0.004243602964861685,
+      "normalized_paired_difference_SE": 0.0031651440295812103,
+      "theorem_normalized_limit": -0.75
+    },
+    {
+      "N": 100000,
+      "h_over_s": 2.0,
+      "h": 5.922800947824435,
+      "replications": 128,
+      "mean_exact_scaled_gain": 3.9835638831043143,
+      "mean_theorem_prediction": 3.984455636989316,
+      "mean_paired_difference": -0.0008917538850013317,
+      "paired_difference_SE": 0.004191245970080865,
+      "mean_absolute_residual_normalized_Cs2": 0.018946519533704333,
+      "median_absolute_residual_normalized_Cs2": 0.008926867721032272,
+      "stabilizations": {
+        "compact_model": 0,
+        "tau_clip": 0,
+        "covariance_repair": 0
+      },
+      "refinements": [
+        {
+          "replication": 0,
+          "coarse_exact": 0.69390908047689,
+          "refined_exact": 0.6939090815247104,
+          "absolute_difference": 1.047820386013143e-09
+        }
+      ],
+      "elapsed_seconds": 68.54805900000002,
+      "MC_SE_exact_scaled_gain": 0.1538578100534205,
+      "MC_SE_theorem_prediction": 0.15409094587011346,
+      "normalized_mean_exact": 3.03856539696188,
+      "normalized_MC_SE_exact": 0.11735898592301174,
+      "normalized_mean_prediction": 3.039245605081314,
+      "normalized_paired_difference": -0.0006802081194339452,
+      "normalized_paired_difference_SE": 0.0031969802288997593,
+      "theorem_normalized_limit": 3.0
+    }
+  ]
+}

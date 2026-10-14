@@ -1,0 +1,70 @@
+{
+  "inputs": [
+    "refined/results.json",
+    "refined/reference_quality.json",
+    "sensitivity/refined_results.json",
+    "theorem_training/summary.json",
+    "theorem_training/paired_gains.npz"
+  ],
+  "simulation_policy": "No new simulations, scenarios, or theorem cases; figures and summaries use cached outputs only.",
+  "outputs": [
+    "build_assets.py",
+    "business_table.json",
+    "calibration_mechanism.pdf",
+    "calibration_mechanism.png",
+    "calibration_mechanism_en.pdf",
+    "calibration_mechanism_en.png",
+    "calibration_mechanism_ru.pdf",
+    "calibration_mechanism_ru.png",
+    "learning_reference_en.pdf",
+    "learning_reference_en.png",
+    "learning_reference_ru.pdf",
+    "learning_reference_ru.png",
+    "process_en.pdf",
+    "process_en.png",
+    "process_ru.pdf",
+    "process_ru.png",
+    "profit_decomposition.pdf",
+    "profit_decomposition.png",
+    "profit_decomposition_en.pdf",
+    "profit_decomposition_en.png",
+    "profit_decomposition_ru.pdf",
+    "profit_decomposition_ru.png",
+    "sensitivity_summary.json",
+    "theorem_mean_l1_residual_en.pdf",
+    "theorem_mean_l1_residual_en.png",
+    "theorem_mean_l1_residual_ru.pdf",
+    "theorem_mean_l1_residual_ru.png"
+  ],
+  "numeric_validation": {
+    "business_table_N": [
+      64,
+      512,
+      4096
+    ],
+    "learning_curve_N_count": 38,
+    "reference_rows_per_DH": {
+      "1": 38,
+      "4": 38,
+      "16": 38
+    },
+    "reference_quality_DH": [
+      1,
+      4,
+      16
+    ],
+    "learning_left_source": "refined/results.json; base model; no new simulation",
+    "learning_right_source": "refined/reference_quality.json; D_H=1,4,16; all existing rows",
+    "theorem_cases": 6,
+    "sensitivity_grid_cases": 81,
+    "sensitivity_negative_point_estimate_count": 37,
+    "sensitivity_loss_over_1_percent_count": 16,
+    "roi_source_field": "roi_ratio_of_expectations",
+    "validated_profit_identity_max_abs": 4.423544863740858e-16,
+    "validated_accept_identity_max_abs": 2.7755575615628914e-17,
+    "validated_roi_identity_max_abs": 0.0,
+    "validated_cash_identity_max_abs": 1.7763568394002505e-15,
+    "monetary_gain_scaling": "mean_gain and mc_se multiplied by design.flow=100000",
+    "sensitivity_MCSE_interval": "mean_delta_per_100000 ± 1.96 * MCSE_delta_per_100000"
+  }
+}

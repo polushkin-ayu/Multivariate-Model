@@ -1,0 +1,24 @@
+{
+  "baseline_profit_per_100k": 422617.9838420302,
+  "expanded_profit_per_100k": 413906.949206278,
+  "oracle_profit_per_100k": 425886.78704317333,
+  "loss_per_100k": 8711.034635752238,
+  "relative_profit_loss_pct": 2.061207749977891,
+  "baseline_roi_pct": 42.85052540389872,
+  "expanded_roi_pct": 42.13436548684694,
+  "roi_change_pp": -0.7161599170517841,
+  "baseline_acquired": 13150.145530571213,
+  "expanded_acquired": 13098.000311582151,
+  "baseline_cac": 986260.914792841,
+  "expanded_cac": 982350.0233686613,
+  "oracle_gain_per_100k": 3268.803201143132,
+  "estimation_loss_per_100k": 11979.837836895369,
+  "mean_effect_MC_95_halfwidth": 59.51634972374346,
+  "fraction_worse_pct": 67.43,
+  "effect_q05_q95_per_100k": [
+    -42117.40151522827,
+    3195.570092600067
+  ],
+  "max_checked_gain_error_per_100k": 0.0012875689216207409,
+  "max_midpoint_validation_error_per_100k": 0.4798879087372643
+}

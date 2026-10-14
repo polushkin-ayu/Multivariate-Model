@@ -1,0 +1,92 @@
+[
+  {
+    "N": 64,
+    "D_H": 1,
+    "raw_bias": 0.0,
+    "raw_sd": 0.3779266442639716,
+    "clipped_mean": 0.24603582496191664,
+    "clipped_bias": -0.003964175038083356,
+    "clipped_probability": 0.026080343110837463,
+    "quadrature_mean_shift": 9.452389565511865e-09
+  },
+  {
+    "N": 512,
+    "D_H": 1,
+    "raw_bias": 0.0,
+    "raw_sd": 0.13269890400191753,
+    "clipped_mean": 0.249999998716163,
+    "clipped_bias": -1.2838370089252038e-09,
+    "clipped_probability": 2.1370753754184687e-08,
+    "quadrature_mean_shift": 2.2555197431994856e-09
+  },
+  {
+    "N": 4096,
+    "D_H": 1,
+    "raw_bias": 0.0,
+    "raw_sd": 0.04687603101547192,
+    "clipped_mean": 0.2499999999054395,
+    "clipped_bias": -9.456049832046176e-11,
+    "clipped_probability": 1.7667518567209772e-54,
+    "quadrature_mean_shift": 2.81981826777411e-10
+  },
+  {
+    "N": 64,
+    "D_H": 4,
+    "raw_bias": 0.0,
+    "raw_sd": 0.6387045276100712,
+    "clipped_mean": 0.21717005549209037,
+    "clipped_bias": -0.03282994450790963,
+    "clipped_probability": 0.1437133961658188,
+    "quadrature_mean_shift": 3.5810005238889886e-09
+  },
+  {
+    "N": 512,
+    "D_H": 4,
+    "raw_bias": 0.0,
+    "raw_sd": 0.22426413189253616,
+    "clipped_mean": 0.24997165686663486,
+    "clipped_bias": -2.8343133365138495e-05,
+    "clipped_probability": 0.0004663088362460799,
+    "quadrature_mean_shift": 2.186205716459e-09
+  },
+  {
+    "N": 4096,
+    "D_H": 4,
+    "raw_bias": 0.0,
+    "raw_sd": 0.07922154656304095,
+    "clipped_mean": 0.2499999999054395,
+    "clipped_bias": -9.456049832046176e-11,
+    "clipped_probability": 4.223625900997861e-21,
+    "quadrature_mean_shift": 2.81981826777411e-10
+  },
+  {
+    "N": 64,
+    "D_H": 16,
+    "raw_bias": 0.0,
+    "raw_sd": 1.2117768664937927,
+    "clipped_mean": 0.14614607277489353,
+    "clipped_bias": -0.10385392722510647,
+    "clipped_probability": 0.41445216202607527,
+    "quadrature_mean_shift": 1.0613210588150679e-09
+  },
+  {
+    "N": 512,
+    "D_H": 16,
+    "raw_bias": 0.0,
+    "raw_sd": 0.4254832638004975,
+    "clipped_mean": 0.24342545066388055,
+    "clipped_bias": -0.006574549336119451,
+    "clipped_probability": 0.04083543095751232,
+    "quadrature_mean_shift": 1.0912021009001904e-09
+  },
+  {
+    "N": 4096,
+    "D_H": 16,
+    "raw_bias": 0.0,
+    "raw_sd": 0.15030242201690025,
+    "clipped_mean": 0.24999999057767364,
+    "clipped_bias": -9.422326363583977e-09,
+    "clipped_probability": 3.2832900478978005e-07,
+    "quadrature_mean_shift": 2.819695033018377e-10
+  }
+]
